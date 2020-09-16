@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "spacedaily"
+    }
+  },
+  "defaultProject": "spacedaily",
+  "cli": {
+    "analytics": "cf929e4d-3fbf-4fe1-bae1-ce2e6427838a"
+  }
 }
