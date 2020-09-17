@@ -32,4 +32,13 @@
       </div>
     </div>
   </div>
+  <div style="height: 50px;"></div>
+  <nav class="d-flex justify-content-center" aria-label="">
+    <ul class="pagination">
+      <li class="page-item"><button class="page-link" (click)="previousPage()">Previous</button></li>
+      <li class="page-item"><a class="page-link">Page: {{page}}</a></li>
+      <li class="page-item"><button class="page-link" (click)="nextPage()">Next</button></li>
+    </ul>
+  </nav>
+
 </div>

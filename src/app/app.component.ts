@@ -12,9 +12,28 @@ export class AppComponent {
   news: News;
   page: number = 1;
   ngOnInit(): void {
+    this.updateNews();
+  }
+
+  updateNews() {
+    console.log("hello");
     this.client.GetNews(this.page).subscribe((data: News) => {
       this.news = data;
       console.log(data);
     });
+  }
+
+  nextPage() {
+    if (this.page != this.news.totalPages) {
+      this.page += 1;
+      this.updateNews();
+    }
+  }
+
+  previousPage() {
+    if (this.page != 1) {
+      this.page -= 1;
+      this.updateNews();
+    }
   }
 }
