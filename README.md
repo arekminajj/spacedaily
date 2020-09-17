@@ -1,6 +1,6 @@
 # Spacedaily 🚀
 
-Space News Daily web application written in Angular. The app can be found [here](https://spacedaily.arekcios.me/)!
+Daily Space News web application written in Angular. The app can be found [here](https://spacedaily.arekcios.me/)!
 
 ## Contributing
 
